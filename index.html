@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Productivity Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Productivity Dashboard</h1>
+        <button id="themeToggle">🌙 Dark Mode</button>
+    </header>
+
+    <main>
+        <!-- Weather Widget -->
+        <section id="weather">
+            <h2>Weather</h2>
+            <p id="weatherData">Loading...</p>
+        </section>
+
+        <!-- Quote Widget -->
+        <section id="quote">
+            <h2>Motivational Quote</h2>
+            <blockquote id="quoteText">Loading...</blockquote>
+        </section>
+
+        <!-- Task Manager -->
+        <section id="tasks">
+            <h2>Tasks</h2>
+            <div class="task-input">
+                <input type="text" id="taskInput" placeholder="Enter a task">
+                <button id="addTask">Add</button>
+            </div>
+            <ul id="taskList"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
